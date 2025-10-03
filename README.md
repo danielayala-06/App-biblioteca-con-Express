@@ -1,7 +1,7 @@
-# CREACIÓN DE UNA APP CON EXPRESS JS
+# 🌐CREACIÓN DE UNA APP CON EXPRESS JS
 App de biblioteca usando Javascript con express y nodejs. En este proyecto se implemento las opereaciones CRUD completas.
-## SQL
-### Creacion de la BD 
+
+## 🛢️Creacion de la BD 
 Podemos hacerlo con cualquier gestor de Base de Datos que tengamos. En mi caso lo hice con MySQLWorbeanch.
  ```SQL
 CREATE DATABASE biblioteca;
@@ -20,7 +20,7 @@ INSERT INTO libros(titulo, autor, numpaginas, categoria) VALUES('Clean Code', 'R
 INSERT INTO libros(titulo, autor, numpaginas, categoria) VALUES('The pragmatic Programmer', 'Andy Hunt y Dave Thomas', 320, 'Software Development');
 SELECT * FROM libros;
  ```
-## INSTALACION
+## 📥INSTALACION
 Para este proyecto necesitamos tener instalado Node.js y nodemon. Con esto en cuenta, clonamos el repositorio.
 
 ```bash
