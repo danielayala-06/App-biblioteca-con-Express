@@ -8,7 +8,7 @@ const libroController = require('../controllers/libroController')
 router.post('/', libroController.createLibro);
 router.get('/', libroController.getLibro);
 router.get('/:id', libroController.getLibrobyId);
-//router.put('/:id', libroController.editLibro);
-//router.delete('/:id', libroController.deletLibro);
+router.put('/:id', libroController.editLibro);
+router.delete('/:id', libroController.deleteLibro);
 
 module.exports = router;
